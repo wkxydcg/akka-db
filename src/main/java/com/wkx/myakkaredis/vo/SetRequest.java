@@ -2,8 +2,10 @@ package com.wkx.myakkaredis.vo;
 
 import lombok.Getter;
 
+import java.io.Serializable;
+
 @Getter
-public class SetRequest {
+public class SetRequest implements Serializable{
 
     private final String key;
 
